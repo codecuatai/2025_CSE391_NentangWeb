@@ -4,75 +4,136 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="stylebai4.css" />
   </head>
   <body>
+    <h3>Basic Info</h3>
+    <hr />
     <div id="basicinfo">
-      <h3>Basic Info</h3>
-      <hr />
       <table>
-    <tr>
-        <td><lable>Employee ID</label></td>
-        <td>
-            <p>9</p>
-        </td>
-    </tr>
-    <tr>
-        <td><label>Last Name</label></td>
-        <td><p>Dodsworth</p></td>
-     </tr>
-     <tr>
-        <td><lable>First Name</lable></td>
-     <td><input type="text" /></td>
-     </tr>
-      
-     <tr>
-        <td><lable>Gender</lable></td>
-     <td><input type="radio" name="gender" />Male
-     <br>
-     
-     <input type="radio" name="gender" />Female
-     <br>
-     
-     <input type="radio" name="gender" />XXX
-     <br>
-     
-     <input type="radio" name="gender" />ZZZ
-    </td>
-     </tr>
-      
-      
-     <tr>
-        <td><lable>Title</lable></td>
-     <td><input type="text" value="Sales Representative" /></td>
-     </tr>
-      
-      
-     <tr>
-        <td><lable>Suffix</lable></td>
-     <td><input type="text" value="Mr." /></td>
-     </tr>
-      <tr>
-        <td><label for="">BirthDate</label></td>
-        <td><input type="datetime-local" value=""></td>
-      </tr>
-      <tr>
-        <td><label for="">HireDate</label></td>
-        <td><input type="datetime-local"></td>
-      </tr>
-      <tr>
-        <td><label for="">SSN # (if applicable)</label></td>
-        <td><input type="password"></td>
-      </tr>
-      <tr>
-        <td><label for="">Reports To</label></td>
-        <td><select>
-            <option selected value="Buchanan">Buchanan</option>
-        </select></td>
-      </tr>
-      
+        <tr>
+          <td><label>Employee ID</label></td>
+          <td><p>9</p></td>
+        </tr>
+        <tr>
+          <td><label>Last Name</label></td>
+          <td><p>Dodsworth</p></td>
+        </tr>
+        <tr>
+          <td><lable>First Name</lable></td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td><lable>Gender</lable></td>
+          <td>
+            <input type="radio" name="gender" />Male
+            <br />
 
-      
-    </table>
+            <input type="radio" name="gender" />Female
+            <br />
+
+            <input type="radio" name="gender" />XXX
+            <br />
+
+            <input type="radio" name="gender" />ZZZ
+          </td>
+        </tr>
+        <tr>
+          <td><lable>Title</lable></td>
+          <td><input type="text" value="Sales Representative" /></td>
+        </tr>
+
+        <tr>
+          <td><lable>Suffix</lable></td>
+          <td><input type="text" value="Mr." /></td>
+        </tr>
+        <tr>
+          <td><label for="">BirthDate</label></td>
+          <td><input type="datetime-local" value="" /></td>
+        </tr>
+        <tr>
+          <td><label for="">HireDate</label></td>
+          <td><input type="datetime-local" /></td>
+        </tr>
+        <tr>
+          <td><label for="">SSN # (if applicable)</label></td>
+          <td><input type="password" /></td>
+        </tr>
+        <tr>
+          <td><label for="">Reports To</label></td>
+          <td>
+            <select>
+              <option selected value="Buchanan">Buchanan</option>
+            </select>
+          </td>
+        </tr>
+      </table>
     </div>
+    <br />
+    <h3>Contact Info</h3>
+    <hr />
+    <div>
+      <table>
+        <tr>
+          <td>
+            <label for=""><b>Email</b></label>
+          </td>
+          <td><input type="email" placeholder="name@example.com" /></td>
+        </tr>
+        <tr>
+          <td>
+            <lable><b>Address</b></lable>
+          </td>
+          <td>
+            <input type="text" value="7 Houndstooth Rd." />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <lable><b>City</b></lable>
+          </td>
+          <td><input type="text" value="London" /></td>
+        </tr>
+        <tr>
+          <td>
+            <lable><b>Region</b></lable>
+          </td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>
+            <lable><b>Postal Code</b></lable>
+          </td>
+          <td><input type="text" /></td>
+        </tr>
+        <tr>
+          <td>
+            <lable><b>Country</b></lable>
+          </td>
+          <td>
+            <select>
+              <option value="1">Russian Federation</option>
+              <option value="2">VietNam</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <lable><b>US Home Phone</b></lable>
+          </td>
+          <td><input type="number" value="123456789" /></td>
+        </tr>
+        <tr>
+          <td>
+            <lable><b>Photo</b></lable>
+          </td>
+          <td><input type="text" value="girl.img" /></td>
+        </tr>
+      </table>
+    </div>
+    <br />
+    <h3>Optional Info</h3>
+    <hr />
+    <div class="optionalinfo"></div>
   </body>
 </html>
