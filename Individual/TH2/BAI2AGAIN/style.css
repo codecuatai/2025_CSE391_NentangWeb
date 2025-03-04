@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: url(images/ocean.jpg) no-repeat;
+  background-position: -400px -650px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  align-items: center;
+  margin: 8px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+li {
+  list-style-type: none;
+}
+header .logo a {
+  font-size: 3rem;
+  color: yellow;
+  font-family: "Raleway";
+}
+header nav ul {
+  display: flex;
+}
+header nav ul a {
+  color: yellow;
+  font-size: 1.5rem;
+  margin-right: 24px;
+}
+main .container .box {
+  color: aliceblue;
+  background-color: rgba(80, 78, 78, 0.7);
+  display: inline-block;
+  text-align: center;
+  padding: 50px 150px;
+}
+main .container {
+  display: flex;
+  justify-content: center;
+  margin: 8rem 0px 25rem;
+}
+main .container .box h2 {
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
+}
+main .container .box p {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+}
+main .container .box a {
+  background-color: yellow;
+  padding: 8px;
+  border-radius: 5px;
+}
+main .destination {
+  background-color: rgb(193, 235, 221);
+  text-align: center;
+}
+main .destination h2 {
+  padding-top: 32px;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+main .destination .box {
+  width: 600px;
+  height: 200px;
+}
+main .destination .box img {
+  width: 100%;
+  height: 100%;
+}
+main .destination ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+main .destination p {
+  margin-top: 16px;
+  font-size: 24px;
+  margin-bottom: 4rem;
+}
+main strong {
+  color: rgb(0, 172, 154);
+}
+footer {
+  height: 110px;
+  background-color: black;
+}
+footer .box {
+  width: 100px;
+  height: 100px;
+  margin-right: 100px;
+}
+footer .box img {
+  width: 100%;
+  height: 100%;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+}

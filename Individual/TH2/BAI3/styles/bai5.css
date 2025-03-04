@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-size: 16px;
+}
+header {
+  background-color: rgb(85, 84, 84);
+  display: flex;
+  justify-content: space-evenly;
+  height: 10vh;
+  align-items: center;
+}
+header .box {
+  border: 1px solid white;
+  padding: 24px;
+  font-size: 20px;
+}
+main {
+  height: 80vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container {
+  height: 60vh;
+  width: 20vw;
+  background-color: gainsboro;
+}
+.container .box1 {
+  background-color: rgb(85, 84, 84);
+  height: 10vh;
+}
+footer {
+  height: 10vh;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .box {
+  border: 1px solid white;
+  align-content: center;
+  height: 5vh;
+  border-radius: 2px;
+  width: 33.33vw;
+  padding: 8px;
+  font-size: 20px;
+}

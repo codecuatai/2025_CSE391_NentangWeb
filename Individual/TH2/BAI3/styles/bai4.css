@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 32px;
+}
+.box {
+  text-align: center;
+  align-content: center;
+}
+.nav {
+  display: flex;
+}
+.nav .box {
+  background-color: gray;
+  width: 25vw;
+  height: 10vh;
+  border: 2px solid gainsboro;
+}
+.main {
+  display: flex;
+  height: 60vh;
+}
+.main .box1 {
+  background-color: gainsboro;
+  width: 20vw;
+  border: 2px solid gray;
+}
+.main .box2 {
+  background-color: gainsboro;
+  width: 60vw;
+  border: 2px solid gray;
+}
+.footer {
+  display: flex;
+  height: 30vh;
+}
+.footer .box {
+  width: 50vw;
+  background-color: gainsboro;
+  border: 2px solid gray;
+}

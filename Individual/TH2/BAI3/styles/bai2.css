@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-size: 32px;
+}
+.box {
+  border: 1px solid white;
+  background-color: gray;
+  text-align: center;
+  align-content: center;
+}
+main {
+  height: 100vh;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+.box1 {
+  width: calc(100vw / 6);
+  height: 20vh;
+}
+.box2 {
+  width: calc(100vw / 6);
+  height: 30vh;
+}
+.box3 {
+  width: calc(100vw / 6);
+  height: 15vh;
+}
+.box4 {
+  width: calc(100vw / 6);
+  height: 35vh;
+}
+.box5 {
+  width: calc(100vw / 6);
+  height: 50vh;
+}
+.box6 {
+  width: calc(100vw / 6);
+  height: 20vh;
+}

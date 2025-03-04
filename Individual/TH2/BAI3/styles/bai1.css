@@ -1,0 +1,37 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  color: white;
+  font-size: 32px;
+}
+body {
+  background-color: green;
+}
+.main {
+  width: 100vw;
+  display: flex;
+}
+.item {
+  background-color: gray;
+  padding: 16px;
+  border: 1px solid white;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 80vh;
+}
+.header {
+  min-width: 60vw;
+}
+.nav {
+  min-width: 40vw;
+  display: flex;
+}
+.article {
+  width: 30vw;
+}
+.footer {
+  height: 20vh;
+}
