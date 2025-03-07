@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="shared.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Travel Goals</title>
+  </head>
+  <body>
+    <header>
+      <div id="page-logo">
+        <a href="/index.html">Travel Goals</a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/places.html">Destinations</a></li>
+          <li><a href="">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="hero">
+        <div id="hero-content">
+          <h1>Joe's Travel Page</h1>
+          <p>Let's explore the world together!</p>
+          <a href="/places.html">Discover places</a>
+        </div>
+      </section>
+      <section id="highlights">
+        <h2>Highlights</h2>
+        <ul id="destinations">
+          <li class="destination">
+            <img
+              src="assets/images/miami.jpg"
+              alt="Miami streets on sunny day"
+            />
+            <p>Miami <strong>USA</strong></p>
+          </li>
+          <li class="destination">
+            <img
+              src="assets/images/munich.jpg"
+              alt="Munich stadium in winter"
+            />
+            <p>Munich <strong>Germany</strong></p>
+          </li>
+          <li class="destination">
+            <img
+              src="assets/images/barcelona.jpg"
+              alt="Palm beach in Barcelona"
+            />
+            <p>Barcelona <strong>Spain</strong></p>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <ul>
+        <li>
+          <a href="https://www.instagram.com">
+            <img src="assets/images/insta.png" alt="Instagram logo"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.facebook.com">
+            <img src="assets/images/facebook.png" alt="Facebook logo"
+          /></a>
+        </li>
+      </ul>
+    </footer>
+    
+    <style>
+      *{
+        padding:0;
+        margin:0;
+      }
+      header{
+        background-color:black;
+        display:flex;
+        justify-content: space-between;
+        background-image:url('assets/images/ocean.jpg')
+      }
+      #page-logo a{
+        color:yellow;
+        font-size:2rem;
+        text-decoration: none;
+      }
+      nav {
+        border: 1px solid yellow;
+        li{
+          list-style: none;
+        }
+        li a{
+          text-decoration: none;
+          color:yellow;
+        }
+        ul{
+          display:flex;
+          padding:10px;
+          gap:50px;
+        }
+        
+      }
+      #hero {
+      width: 100%;
+      height: 500px;
+      background-image: url('assets/images/ocean.jpg');
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;  
+      align-items: center;
+      }
+      #hero-content {
+      text-align: center;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.7);
+      padding: 2rem;
+      border-radius: 5px;
+      width: 80%;
+      max-width: 500px;
+      }
+      #hero-content a{
+      
+      width:100px;
+      background-color: yellow;
+      color:black;
+      text-decoration:none;
+      }
+      #hero-content h1 {
+        font-size: 1.8rem;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+      }
+
+      #hero-content p {
+        margin-bottom: 1.5rem;
+        font-size: 0.9rem;
+      }
+      #highlights{
+        text-align: center;
+        background-color:aquamarine;
+      }
+
+      #highlights h2 {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+        color: black;
+        font-weight: 700;
+      }
+      #destinations {
+        display: flex;
+        justify-content: space-around;
+       list-style: none;
+        padding: 0;
+      }
+
+      .destination img {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+      }
+
+      .destination p {
+        padding: 1rem;
+        font-size: 2rem;
+        color: black;
+        font-weight: bold;
+        text-align: center;
+      }
+      footer{
+        display:flex;
+        background-color:black;
+        justify-content:center;
+        ul{
+          display:flex;
+          gap:50px;
+        }
+        li img{
+          width:50px;
+          object-fit:cover;
+        }
+      }
+      
+    </style>
+
+    
+  </body>
+</html>
