@@ -1,0 +1,72 @@
+.hero {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 20px;
+  background-image: url(https://cafebiz.cafebizcdn.vn/2018/12/22/photo-2-15454504530612141260827.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.btn {
+  background: #ff6600;
+  color: rgb(237, 237, 237);
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background: #cc5200;
+}
+
+.destinations {
+  padding: 50px;
+  text-align: center;
+  background: white;
+}
+
+.destination-list {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.destination {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  color: rgb(252, 252, 252);
+}
+.destination:hover {
+  transform: scale(1.05);
+}
+.destination1 {
+  background: url(../images/Beach.png) 100%;
+}
+.destination2 {
+  background: url(../images/Thuyloi.png);
+  background-size: 100%;
+}
+.destination3 {
+  background: url(..//images/Mountain.png) 100%;
+}
+
+.zoom-in {
+  transform: scale(0.9);
+  animation: zoomIn 1s ease-in forwards;
+}
+footer {
+  background: #0073e6;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}

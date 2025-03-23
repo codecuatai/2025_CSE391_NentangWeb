@@ -1,0 +1,28 @@
+.Pagedestination {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+  padding: 20px;
+}
+.Pagedestination .destination {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Pagedestination .box1 {
+  background: url("../images/Halong.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.Pagedestination .box2 {
+  background: url("../images/Hoian.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+.Pagedestination .box3 {
+  background: url("../images/Dalat.png") no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
